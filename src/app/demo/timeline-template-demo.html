@@ -1,16 +1,10 @@
 <br />
 
 <h1
-  style="
-    font-size: 250%;
-    font-family: Bebas Neue;
-    text-align: center;
-    padding-top: 2.5%;
-    color: white;
-  "
+  style="font-size: 250%; text-align: center; padding-top: 2.5%; color: white"
   id="title"
 >
-  KINDRED: An Awesome Timeline
+  Invisible Man & Civil Rights Movement
 </h1>
 
 <h3 style="text-align: center; color: white" id="authors">
@@ -19,7 +13,7 @@
 
 <br />
 
-<h2 style="text-align: center; color: white" id="perspective">Perspective</h2>
+<h2 style="text-align: center; color: white" id="perspective">Timeline</h2>
 
 <div style="display: flex; justify-content: center">
   <mat-button-toggle-group
@@ -28,14 +22,14 @@
     (change)="beginSort($event)"
   >
     <mat-button-toggle
-      value="rufus"
-      matTooltip="Displays items in Rufus's point-of-view. This is analogous to chronological order."
-      >Rufus</mat-button-toggle
+      value="irl"
+      matTooltip="Shows the timeline for the American Civil Rights movement."
+      >American Civil-Rights</mat-button-toggle
     >
     <mat-button-toggle
-      value="dana"
-      matTooltip="Displays items in Dana's point-of-view. This is analogous to the book's order."
-      >Dana</mat-button-toggle
+      value="book"
+      matTooltip="Shows the timeline for the Invisible Man."
+      >Invisible Man</mat-button-toggle
     >
   </mat-button-toggle-group>
 </div>
@@ -55,7 +49,7 @@
 <div style="display: flex; justify-content: center; padding-bottom: 2.5%">
   <a
     mat-raised-button
-    href="https://github.com/ShrootBuck/KindredPBL"
+    href="https://github.com/ShrootBuck/InvisibleManPBL"
     target="_blank"
     >Source Code</a
   >
